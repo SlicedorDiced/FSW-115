@@ -1,0 +1,75 @@
+{
+    "JSON's Deli" : {
+        "categories" : 5,
+        "menu" : 
+                {
+                "appetizers" : [ 
+                    {
+                        "name" : "Tacitos",
+                        "ingridients" : ["chicken", "Pico de gallo", "sour cream", " lettuce", "black beans"],
+                        "description" : "Your Choice of Soft or Hard shell, freshly made ingridients.",
+                        "price" : 3.99
+                    }, {
+                        "name" : "chicken wings",
+                        "ingridients" : ["chicken", "others"],
+                        "description" : "Crispy, or grilled; freshly made ingridients.",
+                        "price" : 7.00
+                    }  
+                ],
+
+                "Cold Sandwiches" : [ 
+                    {
+                        "name" : "BLT Bacon Lettuce Tomatoes",
+                        "ingridients" : ["Bacon", "lettuce", "tomatoes", "mayo"],
+                        "description" : "Your Choice of bread.",
+                        "price" : 3.99
+                    }, {
+                        "name" : "Tuna Salad Sandwich",
+                        "ingridients" : ["tuna", "onions", "mayo"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 7.00
+                    }  
+                ],
+                "Hot Sandwiches" : [ 
+                    {
+                        "name" : "Philly",
+                        "ingridients" : ["Steak strips", " mayo", " ketchup", "onions", "mushroom", "cheese"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 3.99
+                    }, {
+                        "name" : "chicken wings",
+                        "ingridients" : ["chicken", "others", "array"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 7.00
+                    }  
+                ],
+                "Dessert" : [ 
+                    {
+                        "name" : "Tacitos",
+                        "ingridients" : ["ingridiens", "ingridiends", "ingridiends"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 3.99
+                    }, {
+                        "name" : "chicken wings",
+                        "ingridients" : ["chicken", "others", "array"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 7.00
+                    }  
+                ],
+                "Drinks" : [ 
+                    {
+                        "name" : "Tacitos",
+                        "ingridients" : ["ingridiens", "ingridiends", "ingridiends"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 3.99
+                    }, {
+                        "name" : "chicken wings",
+                        "ingridients" : ["chicken", "others", "array"],
+                        "description" : "freshly made ingridients.",
+                        "price" : 7.00
+                    }  
+                ]
+            
+        }
+    }
+}
