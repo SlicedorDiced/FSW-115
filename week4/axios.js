@@ -2,7 +2,8 @@ const userName = document.querySelector('#name');
 const button = document.querySelector('#bttn').addEventListener('click', requestAxiosData)
 
 function requestAxiosData(){
-    axios.get(`http://api.bryanuniversity.edu/${userName}/list`)
+
+    axios.get(`http://api.bryanuniversity.edu/${userName.value}/list`)
 .then(response => {
     for(i = 0; i < response.data.length; i++){ 
         const h1 = document.createElement('h1')
