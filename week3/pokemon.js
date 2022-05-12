@@ -6,7 +6,8 @@ xhr.send()
 xhr.onreadystatechange = function(){
     if(xhr.readyState === 4 && xhr.status === 200){
         let data = JSON.parse(xhr.responseText)
-        showData(data.result)
+        console.log(data)
+        showData(data.results)
     } else if (xhr.readyState === 4 && xhr.status !== 200) {
         console.log(xhr.responseText)
     }
@@ -14,7 +15,7 @@ xhr.onreadystatechange = function(){
 
 function showData(data){
     console.log(data)
-    for(i = 0; i < data.lenght; i++){
+    for(i = 0; i < data.length; i++){
         const pokemon = document.createElement('P')
         pokemon.textContent = data[i].name
         document.body.appendChild(pokemon)
