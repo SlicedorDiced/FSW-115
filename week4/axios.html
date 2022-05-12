@@ -7,9 +7,17 @@
     <title>Axios Fetch</title>
 </head>
 <body>
-    <div id="wrapper" >
-        <label for="name">Name</label> <input id="name" type="text">
-        <button id="bttn" >Click</button>
+    <div id="getwrapper" >
+        <h3>Search Name</h3>
+        <input id="name" type="text" placeholder="Name..." >
+        <button id="getbttn" >Get</button>
+    </div> <br>
+
+    <div id="postwrapper"> <h3>Add To do</h3>
+       <input type="text" id="description" placeholder="Description">
+       <input type="text" id="price" placeholder="Price">
+       <input type="text" id="iscom" placeholder="isComplete">
+       <button id="postbttn">Post</button>
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" ></script>
