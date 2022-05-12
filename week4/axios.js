@@ -1,5 +1,8 @@
+const userName = document.querySelector('#name');
+const button = document.querySelector('#bttn').addEventListener('click', requestAxiosData)
 
-axios.get('http://api.bryanuniversity.edu/Joshua-Luna-Perez/list')
+function requestAxiosData(){
+    axios.get(`http://api.bryanuniversity.edu/${userName}/list`)
 .then(response => {
     for(i = 0; i < response.data.length; i++){ 
         const h1 = document.createElement('h1')
@@ -8,6 +11,8 @@ axios.get('http://api.bryanuniversity.edu/Joshua-Luna-Perez/list')
     }
 })
 .catch(error => console.log(error))
+}
+
 
 
 
